@@ -22,7 +22,6 @@ import re
 import socket
 import traceback
 from math import pi
-from typing import Union, Sequence, List  # pylint: disable=unused-import
 
 import rospy
 from geometry_msgs.msg import Pose, Point

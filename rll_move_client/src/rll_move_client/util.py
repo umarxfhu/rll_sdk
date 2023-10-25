@@ -18,7 +18,6 @@
 # along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #
 from math import sqrt, pi
-from typing import (List, Iterable, Sequence, Dict, Union)  # noqa: E501, pylint: disable=unused-import, line-too-long
 
 
 import numpy as np

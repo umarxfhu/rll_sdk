@@ -1,5 +1,4 @@
 from os import getcwd, path
-from typing import Union  # pylint: disable=unused-import
 
 import rospy
 

@@ -18,7 +18,6 @@
 # along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #
 
-from typing import Union  # pylint: disable=unused-import
 
 import actionlib
 import rospy

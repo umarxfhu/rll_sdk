@@ -1,4 +1,3 @@
-from typing import Union  # pylint: disable=unused-import
 
 import rospy
 from geometry_msgs.msg import Vector3, Pose, Point, Quaternion

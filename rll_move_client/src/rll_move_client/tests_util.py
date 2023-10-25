@@ -22,7 +22,6 @@ from __future__ import print_function
 
 import time
 import unittest
-from typing import (Callable, Iterable, Union)  # noqa: E501 pylint: disable=unused-import
 
 import rospy
 import rosunit

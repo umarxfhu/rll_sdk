@@ -22,7 +22,6 @@ import glob
 import json
 import tarfile
 from os import environ, path, remove, walk
-from typing import List  # pylint: disable=unused-import
 
 import requests
 import rospy

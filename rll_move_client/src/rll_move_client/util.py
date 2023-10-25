@@ -30,7 +30,7 @@ from tf.transformations import (unit_vector, quaternion_from_euler,
 from rll_move_client.error import RLLErrorCode, ServiceCallFailure
 
 # custom type to make the type hints more readable
-PointLike = Union[Sequence[float], Point, Pose, np.ndarray]  # noqa: E501, pylint: disable=invalid-name, line-too-long
+# PointLike = Union[Sequence[float], Point, Pose, np.ndarray]  # noqa: E501, pylint: disable=invalid-name, line-too-long
 
 
 def array_to_point(arr):

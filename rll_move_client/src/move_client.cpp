@@ -57,6 +57,15 @@ const static std::map<uint8_t, const std::string> HINTS = {
                                              "collision, only part of the motion is possible." },
   { RLLErrorCode::SERVICE_CALL_NOT_ALLOWED,
     "The movement interface currently does not accept service calls, possibly due to a critical failure." },
+  { RLLErrorCode::PROJECT_SPECIFIC_RECOVERABLE_1,
+    "[PREVIOUS_MOVE_FAILED]: A previous move service call failed. As a result all further move"
+            " service calls will be rejected. Please verify that a movement is"
+            " possible by calling check_path first." },
+  { RLLErrorCode::PROJECT_SPECIFIC_INVALID_1,
+    "[TOO_LITTLE_MOVEMENT]: Requests that cover a distance between 0 and 5 mm or sole "
+            "rotations less than 20 degrees are not supported!." },
+  { RLLErrorCode::PROJECT_SPECIFIC_INVALID_2,
+    "[NO_PATH_FOUND]" },
 };
 
 void RLLMoveClientBase::logHint(RLLErrorCode error_code)
